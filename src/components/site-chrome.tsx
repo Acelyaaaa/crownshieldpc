@@ -1,9 +1,7 @@
 import { Link } from 'react-router-dom'
-import { Mail, Phone, MapPin, Clock, ArrowRight, Camera } from 'lucide-react'
+import { Mail, Phone, MapPin, Clock, ArrowRight } from 'lucide-react'
 import type { ReactNode } from 'react'
 import logoImg from '../assets/logo.png'
-
-
 
 export const PHONE = '+44 7503 916578'
 export const PHONE_HREF = 'tel:+447503916578'
@@ -22,19 +20,9 @@ export function WhatsAppIcon({ className, style }: { className?: string; style?:
   )
 }
 
-
-
 export function LogoPlaceholder({ dark = false }: { dark?: boolean }) {
   return (
-    <img src={logoImg} alt="Crown Shield Pest Control" className="h-10 w-auto object-contain" style={{  }} />
-  )
-}
-export function ImagePlaceholder({ className = '', label = 'Image Coming Soon' }: { className?: string; label?: string }) {
-  return (
-    <div className={`flex flex-col items-center justify-center gap-3 rounded-2xl ${className}`} style={{ background: '#f0f0f0', border: '1px solid #e4e4e7' }} role="img" aria-label={label}>
-      <Camera className="h-10 w-10" style={{ color: '#b0b0b0' }} strokeWidth={1.5} />
-      <span className="text-xs uppercase tracking-widest" style={{ color: '#b0b0b0' }}>{label}</span>
-    </div>
+    <img src={logoImg} alt="Crown Shield Pest Control" className="h-10 w-auto object-contain" style={{ filter: dark ? 'brightness(0) invert(1)' : 'none' }} />
   )
 }
 

@@ -2,9 +2,9 @@ import { Rat, ShieldCheck, Mail, Phone, Clock, MapPin, CheckCircle2, ArrowRight 
 import type { SVGProps } from 'react'
 import { motion } from 'framer-motion'
 import { Reveal, RevealGroup, RevealItem, FloatingWhatsApp } from '../components/motion'
-import { Nav, Footer, FloatingCallMobile, WhatsAppIcon, TopContactBar, ImagePlaceholder, PHONE, PHONE_HREF, WHATSAPP_HREF, EMAIL, EMAIL_HREF } from '../components/site-chrome'
+import { Nav, Footer, FloatingCallMobile, WhatsAppIcon, TopContactBar, PHONE, PHONE_HREF, WHATSAPP_HREF, EMAIL, EMAIL_HREF } from '../components/site-chrome'
 import heroImg from '../assets/hero.png'
-import aboutImg from '../assets/image.png' 
+import aboutImg from '../assets/image.png'
 
 function CockroachIcon(props: SVGProps<SVGSVGElement>) {
   return (
