@@ -9,7 +9,7 @@ export const WHATSAPP_HREF = 'https://wa.me/447503916578'
 export const EMAIL = 'crownshieldpestcontrol@gmail.com'
 export const EMAIL_HREF = `mailto:${EMAIL}`
 export const BUSINESS_NAME = 'Crown Shield Pest Control Services'
-export const SITE_URL = 'https://crownshieldpestcontrol.co.uk'
+export const SITE_URL = 'https://crownshieldpestcontrol.com'
 export const ADDRESS_LINE = 'Serving London and Surrounding Areas, United Kingdom'
 
 export function WhatsAppIcon({ className, style }: { className?: string; style?: React.CSSProperties }) {
