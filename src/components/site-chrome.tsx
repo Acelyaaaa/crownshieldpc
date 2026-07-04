@@ -108,7 +108,7 @@ export function Footer({ variant = 'home' }: { variant?: 'home' | 'page' }) {
         <div>
           <div className="text-xs uppercase tracking-widest font-semibold mb-3" style={{ color: '#e74c3c' }}>Company</div>
           <h3 className="text-lg font-black mb-3">{BUSINESS_NAME}</h3>
-          <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>Professional pest control for London homes and businesses — fast, guaranteed results.</p>
+          <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.65)' }}>Professional pest control for London homes and businesses. Fast, guaranteed results.</p>
           <div className="mt-4 flex items-start gap-2 text-sm" style={{ color: 'rgba(255,255,255,0.65)' }}>
             <MapPin className="h-4 w-4 mt-0.5 shrink-0" style={{ color: '#e74c3c' }} />
             <span>{ADDRESS_LINE}</span>
