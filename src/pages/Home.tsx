@@ -112,7 +112,7 @@ function Hero() {
           </RevealItem>
           <RevealItem>
             <p className="mt-5 max-w-lg text-base sm:text-lg leading-relaxed" style={{ color: '#6b7280' }}>
-              Crown Shield Pest Control delivers fast, discreet and guaranteed treatments for mice, rats, cockroaches, bed bugs and more — across homes and businesses in London.
+              Crown Shield Pest Control delivers fast, discreet and guaranteed treatments for mice, rats, cockroaches, bed bugs and more. Across homes and businesses in London.
             </p>
           </RevealItem>
           <RevealItem>

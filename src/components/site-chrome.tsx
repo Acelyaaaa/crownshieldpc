@@ -21,11 +21,17 @@ export function WhatsAppIcon({ className, style }: { className?: string; style?:
 }
 
 export function LogoPlaceholder({ dark = false }: { dark?: boolean }) {
+  if (dark) {
+    return (
+      <div className="inline-flex items-center justify-center rounded-lg p-1.5" style={{ backgroundColor: 'rgba(255,255,255,0.95)' }}>
+        <img src={logoImg} alt="Crown Shield Pest Control" className="h-10 w-auto object-contain" />
+      </div>
+    )
+  }
   return (
-    <img src={logoImg} alt="Crown Shield Pest Control" className="h-10 w-auto object-contain" style={{ filter: dark ? 'brightness(0) invert(1)' : 'none' }} />
+    <img src={logoImg} alt="Crown Shield Pest Control" className="h-10 w-auto object-contain" />
   )
 }
-
 export function TopContactBar() {
   return (
     <div style={{ backgroundColor: '#0a1628' }} className="w-full text-white">
